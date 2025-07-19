@@ -1,12 +1,46 @@
-# React + Vite
+# 🎓 College Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application for managing students, attendance, test scores, and detailed reports.  
+Built with **React.js**, **Tailwind CSS**, **Framer Motion**, and **Firebase**, this project features real-time updates, secure authentication, and separate dashboards for administrators and students.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Features
 
-## Expanding the ESLint configuration
+- ✅ Responsive design, works on all devices
+- ✅ Admin authentication (login/logout)
+- ✅ Admin dashboard: manage students, record attendance, enter test scores
+- ✅ Generate and view monthly attendance & test reports
+- ✅ Student dashboard: view personal reports and attendance
+- ✅ Real-time database updates (Firebase Firestore)
+- ✅ Smooth animations with Framer Motion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- **React.js** — Frontend UI
+- **Tailwind CSS** — Utility-first CSS for styling
+- **Framer Motion** — Page and component animations
+- **Firebase**
+  - Firestore — Database for storing student, attendance, and test data
+  - Authentication — Admin and student login/logout
+  - Hosting — Deploy the web app
+
+---
+
+## 📂 How to Use
+
+### 💻 Run Locally
+
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/your-username/college-management-system.git
+
+cd college-management-system
+
+npm install
+
+npm start
+
+
